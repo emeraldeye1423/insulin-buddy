@@ -1,0 +1,17 @@
+{
+  "name": "insulin-buddy-bot",
+  "version": "1.0.0",
+  "description": "Discord bot middleware for Insulin Buddy — handles Ed25519 verification and forwards to n8n",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "register": "node register-command.js"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.4.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
