@@ -1,4 +1,4 @@
-name = "insulin-buddy"
+name = "insulin-buddy-bot"
 main = "index.js"
 compatibility_date = "2024-01-01"
-compatibility_flags = ["nodejs_compat"]
+compatibility_flags = [ "nodejs_compat" ]
