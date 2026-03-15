@@ -1,7 +1,4 @@
 name = "insulin-buddy"
 main = "index.js"
 compatibility_date = "2024-01-01"
-
-[vars]
-# Add your secrets via: wrangler secret put DISCORD_PUBLIC_KEY
-# Add your secrets via: wrangler secret put N8N_WEBHOOK_URL
+compatibility_flags = ["nodejs_compat"]
