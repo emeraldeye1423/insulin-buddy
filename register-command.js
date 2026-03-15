@@ -1,8 +1,8 @@
 // Run this ONCE to register the /meal slash command with Discord
 // node register-command.js
 
-const BOT_TOKEN = "YOUR_BOT_TOKEN_HERE";
-const APPLICATION_ID = "YOUR_APPLICATION_ID_HERE";
+const BOT_TOKEN = "MTQ4MjM2MTYyODE2NjE5MzI4Ng.G-yGHO.eNs9WWW43LtP1p_yX2_O56V5JjAplkpYJrNoOA";
+const APPLICATION_ID = "1482361628166193286";
 
 const command = {
   name: "meal",
