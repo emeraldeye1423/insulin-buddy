@@ -1,10 +1,9 @@
 import { verifyKey } from "discord-interactions";
 
-const DISCORD_PUBLIC_KEY = process.env.DISCORD_PUBLIC_KEY;
-const N8N_WEBHOOK_URL = process.env.N8N_WEBHOOK_URL;
-
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
+    const DISCORD_PUBLIC_KEY = env.DISCORD_PUBLIC_KEY;
+    const N8N_WEBHOOK_URL = env.N8N_WEBHOOK_URL;
     if (request.method === "GET") {
       return new Response("Insulin Buddy bot is alive 💉", { status: 200 });
     }
