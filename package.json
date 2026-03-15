@@ -1,10 +1,10 @@
 {
-  "name": "insulin-buddy-bot",
+  "name": "insulin-buddy",
   "version": "1.0.0",
-  "description": "Discord bot middleware for Insulin Buddy",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "deploy": "wrangler deploy"
+  "dependencies": {
+    "discord-interactions": "^3.4.0"
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
